@@ -1,0 +1,3019 @@
+# Loading project mips_sim
+# Compile of adder.vhd was successful.
+# Compile of alu.vhd was successful.
+# Compile of aludec.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of flopr.vhd was successful.
+# Compile of imem.vhd was successful.
+# Compile of lpm_constant4.vhd was successful.
+# Compile of maindec.vhd was successful.
+# Compile of mips.vhd was successful.
+# Compile of mux2_5.vhd was successful.
+# Compile of mux2_32.vhd was successful.
+# Compile of mux4_32.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of signext.vhd was successful.
+# Compile of sl2_26.vhd was successful.
+# Compile of sl2_32.vhd was successful.
+# Compile of sl16_32.vhd was successful.
+# Compile of top.vhd was successful.
+# 18 compiles, 0 failed with no errors. 
+vsim work.top
+# vsim work.top 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.top(rtl)
+# Loading work.mips(bdf_type)
+# Loading work.alu(rtl)
+# Loading work.aludec(rtl)
+# Loading work.mux4_32(rtl)
+# Loading work.adder(rtl)
+# Loading work.mux2_32(rtl)
+# Loading work.sl2_32(rtl)
+# Loading ieee.std_logic_textio(body)
+# Loading work.dmem(rtl)
+# Loading work.imem(rtl)
+# Loading work.signext(rtl)
+# Loading work.mux2_5(rtl)
+# Loading work.maindec(rtl)
+# Loading work.lpm_constant4(rtl)
+# Loading work.sl2_26(rtl)
+# Loading work.flopr(rtl)
+# Loading work.regfile(rtl)
+# Loading work.sl16_32(rtl)
+do C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/wave.do
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: marina  Hostname: DESKTOP-9R9KCH8  ProcessID: 15280
+# 
+#           Attempting to use alternate WLF file "./wlfta3z9kf".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlfta3z9kf
+# 
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_imem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 52252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 53852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 55452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 56250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 56250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 56252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 102252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 103852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 105452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 106250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 106250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 106252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 152252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 153852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 155452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 156250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 156250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 156252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 202252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 203852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 205452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 206250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 206250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 206252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 252252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 253852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 255452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 256250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 256250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 256252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 302252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 303852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 305452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 306250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 306250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 306252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 352252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 353852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 355452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 356250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 356250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 356252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 402252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 403852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 405452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 406250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 406250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 406252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 452252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 453852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 455452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 456250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 456250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 456252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 502252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 503852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 505452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 506250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 506250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 506252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 552252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 553852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 555452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 556250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 556250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 556252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 602252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 603852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 605452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 606250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 606250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 606252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 652252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 653852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 655452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 656250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 656250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 656252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 702252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 703852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 705452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 706250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 706250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 706252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 752252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 753852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 755452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 756250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 756250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 756252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 802252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 803852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 805452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 806250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 806250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 806252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 852252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 853852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 855452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 856250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 856250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 856252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 902252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 903852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 905452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 906250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 906250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 906252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 952252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 953852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 955452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 956250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 956250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 956252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1002252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1003852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1005452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1006250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1006250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1006252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1052252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1053852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1055452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1056250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1056250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1056252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1102252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1103852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1105452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1106250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1106250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1106252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1152252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1153852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1155452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1156250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1156250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1156252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1202252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1203852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1205452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1206250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1206250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1206252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1252252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1253852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1255452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1256250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1256250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1256252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1302252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1303852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1305452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1306250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1306250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1306252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1352252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1353852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1355452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1356250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1356250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1356252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1402252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1403852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1405452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1406250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1406250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1406252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1452252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1453852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1455452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1456250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1456250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1456252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1502252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1503852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1505452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1506250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1506250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1506252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1552252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1553852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1555452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1556250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1556250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1556252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1602252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1603852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1605452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1606250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1606250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1606252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Failure: Probable Infinite Loop
+#    Time: 1637800 ns  Iteration: 1  Process: /top/last File: C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/top.vhd
+# Break in Process last at C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/top.vhd line 28
+# Compile of adder.vhd was successful.
+# Compile of alu.vhd was successful.
+# Compile of aludec.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of flopr.vhd was successful.
+# Compile of imem.vhd was successful.
+# Compile of lpm_constant4.vhd was successful.
+# Compile of maindec.vhd was successful.
+# Compile of mips.vhd was successful.
+# Compile of mux2_5.vhd was successful.
+# Compile of mux2_32.vhd was successful.
+# Compile of mux4_32.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of signext.vhd was successful.
+# Compile of sl2_26.vhd was successful.
+# Compile of sl2_32.vhd was successful.
+# Compile of sl16_32.vhd was successful.
+# Compile of top.vhd was successful.
+# 18 compiles, 0 failed with no errors. 
+vsim work.top
+# vsim work.top 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.top(rtl)
+# Loading work.mips(bdf_type)
+# Loading work.alu(rtl)
+# Loading work.aludec(rtl)
+# Loading work.mux4_32(rtl)
+# Loading work.adder(rtl)
+# Loading work.mux2_32(rtl)
+# Loading work.sl2_32(rtl)
+# Loading ieee.std_logic_textio(body)
+# Loading work.dmem(rtl)
+# Loading work.imem(rtl)
+# Loading work.signext(rtl)
+# Loading work.mux2_5(rtl)
+# Loading work.maindec(rtl)
+# Loading work.lpm_constant4(rtl)
+# Loading work.sl2_26(rtl)
+# Loading work.flopr(rtl)
+# Loading work.regfile(rtl)
+# Loading work.sl16_32(rtl)
+do C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/wave.do
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: marina  Hostname: DESKTOP-9R9KCH8  ProcessID: 15280
+# 
+#           Attempting to use alternate WLF file "./wlftcjmik3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftcjmik3
+# 
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_imem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 52252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 53852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 55452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 56250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 56250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 56252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 102252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 103852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 105452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 106250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 106250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 106252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 152252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 153852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 155452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 156250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 156250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 156252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 202252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 203852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 205452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 206250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 206250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 206252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 252252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 253852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 255452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 256250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 256250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 256252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 302252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 303852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 305452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 306250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 306250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 306252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 352252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 353852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 355452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 356250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 356250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 356252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 402252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 403852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 405452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 406250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 406250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 406252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 452252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 453852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 455452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 456250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 456250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 456252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 502252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 503852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 505452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 506250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 506250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 506252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 552252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 553852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 555452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 556250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 556250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 556252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 602252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 603852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 605452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 606250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 606250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 606252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 652252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 653852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 655452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 656250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 656250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 656252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 702252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 703852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 705452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 706250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 706250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 706252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 752252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 753852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 755452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 756250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 756250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 756252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 802252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 803852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 805452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 806250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 806250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 806252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 852252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 853852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 855452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 856250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 856250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 856252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 902252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 903852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 905452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 906250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 906250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 906252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 952252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 953852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 955452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 956250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 956250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 956252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1002252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1003852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1005452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1006250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1006250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1006252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1052252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1053852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1055452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1056250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1056250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1056252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1102252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1103852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1105452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1106250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1106250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1106252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1152252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1153852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1155452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1156250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1156250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1156252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1202252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1203852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1205452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1206250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1206250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1206252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1252252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1253852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1255452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1256250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1256250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1256252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1302252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1303852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1305452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1306250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1306250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1306252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1352252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1353852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1355452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1356250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1356250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1356252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1402252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1403852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1405452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1406250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1406250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1406252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1452252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1453852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1455452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1456250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1456250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1456252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1502252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1503852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1505452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1506250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1506250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1506252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1552252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1553852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1555452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1556250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1556250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1556252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1602252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1603852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1605452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1606250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1606250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1606252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Failure: Probable Infinite Loop
+#    Time: 1637800 ns  Iteration: 1  Process: /top/last File: C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/top.vhd
+# Break in Process last at C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/top.vhd line 28
+# Compile of adder.vhd was successful.
+# Compile of alu.vhd was successful.
+# Compile of aludec.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of flopr.vhd was successful.
+# Compile of imem.vhd was successful.
+# Compile of lpm_constant4.vhd was successful.
+# Compile of maindec.vhd was successful.
+# Compile of mips.vhd was successful.
+# Compile of mux2_5.vhd was successful.
+# Compile of mux2_32.vhd was successful.
+# Compile of mux4_32.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of signext.vhd was successful.
+# Compile of sl2_26.vhd was successful.
+# Compile of sl2_32.vhd was successful.
+# Compile of sl16_32.vhd was successful.
+# Compile of top.vhd was successful.
+# 18 compiles, 0 failed with no errors. 
+vsim work.top
+# vsim work.top 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.top(rtl)
+# Loading work.mips(bdf_type)
+# Loading work.alu(rtl)
+# Loading work.aludec(rtl)
+# Loading work.mux4_32(rtl)
+# Loading work.adder(rtl)
+# Loading work.mux2_32(rtl)
+# Loading work.sl2_32(rtl)
+# Loading ieee.std_logic_textio(body)
+# Loading work.dmem(rtl)
+# Loading work.imem(rtl)
+# Loading work.signext(rtl)
+# Loading work.mux2_5(rtl)
+# Loading work.maindec(rtl)
+# Loading work.lpm_constant4(rtl)
+# Loading work.sl2_26(rtl)
+# Loading work.flopr(rtl)
+# Loading work.regfile(rtl)
+# Loading work.sl16_32(rtl)
+do C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/wave.do
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: marina  Hostname: DESKTOP-9R9KCH8  ProcessID: 15280
+# 
+#           Attempting to use alternate WLF file "./wlftqfia7i".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftqfia7i
+# 
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_imem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 52252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 53852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 55452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 56250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 56250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 56252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 102252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 103852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 105452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 106250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 106250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 106252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 152252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 153852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 155452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 156250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 156250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 156252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 202252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 203852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 205452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 206250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 206250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 206252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 252252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 253852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 255452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 256250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 256250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 256252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 302252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 303852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 305452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 306250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 306250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 306252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 352252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 353852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 355452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 356250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 356250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 356252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 402252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 403852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 405452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 406250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 406250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 406252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 452252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 453852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 455452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 456250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 456250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 456252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 502252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 503852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 505452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 506250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 506250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 506252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 552252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 553852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 555452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 556250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 556250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 556252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 602252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 603852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 605452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 606250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 606250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 606252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 652252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 653852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 655452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 656250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 656250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 656252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 702252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 703852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 705452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 706250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 706250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 706252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 752252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 753852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 755452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 756250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 756250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 756252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 802252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 803852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 805452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 806250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 806250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 806252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 852252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 853852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 855452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 856250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 856250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 856252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 902252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 903852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 905452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 906250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 906250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 906252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 952252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 953852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 955452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 956250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 956250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 956252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1002252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1003852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1005452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1006250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1006250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1006252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1052252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1053852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1055452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1056250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1056250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1056252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1102252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1103852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1105452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1106250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1106250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1106252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1152252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1153852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1155452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1156250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1156250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1156252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1202252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1203852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1205452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1206250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1206250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1206252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1252252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1253852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1255452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1256250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1256250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1256252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1302252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1303852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1305452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1306250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1306250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1306252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1352252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1353852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1355452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1356250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1356250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1356252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1402252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1403852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1405452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1406250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1406250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1406252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1452252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1453852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1455452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1456250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1456250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1456252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1502252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1503852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1505452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1506250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1506250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1506252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1552252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1553852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1555452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1556250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1556250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1556252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1602252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1603852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1605452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1606250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1606250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1606252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Failure: Probable Infinite Loop
+#    Time: 1637800 ns  Iteration: 1  Process: /top/last File: C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/top.vhd
+# Break in Process last at C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/top.vhd line 28
+# Compile of adder.vhd was successful.
+# Compile of alu.vhd was successful.
+# Compile of aludec.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of flopr.vhd was successful.
+# Compile of imem.vhd was successful.
+# Compile of lpm_constant4.vhd was successful.
+# Compile of maindec.vhd was successful.
+# Compile of mips.vhd was successful.
+# Compile of mux2_5.vhd was successful.
+# Compile of mux2_32.vhd was successful.
+# Compile of mux4_32.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of signext.vhd was successful.
+# Compile of sl2_26.vhd was successful.
+# Compile of sl2_32.vhd was successful.
+# Compile of sl16_32.vhd was successful.
+# Compile of top.vhd was successful.
+# 18 compiles, 0 failed with no errors. 
+# Load canceled
+# Compile of adder.vhd was successful.
+# Compile of alu.vhd was successful.
+# Compile of aludec.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of flopr.vhd was successful.
+# Compile of imem.vhd was successful.
+# Compile of lpm_constant4.vhd was successful.
+# Compile of maindec.vhd was successful.
+# Compile of mips.vhd was successful.
+# Compile of mux2_5.vhd was successful.
+# Compile of mux2_32.vhd was successful.
+# Compile of mux4_32.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of signext.vhd was successful.
+# Compile of sl2_26.vhd was successful.
+# Compile of sl2_32.vhd was successful.
+# Compile of sl16_32.vhd was successful.
+# Compile of top.vhd was successful.
+# 18 compiles, 0 failed with no errors. 
+vsim work.top
+# vsim work.top 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.top(rtl)
+# Loading work.mips(bdf_type)
+# Loading work.alu(rtl)
+# Loading work.aludec(rtl)
+# Loading work.mux4_32(rtl)
+# Loading work.adder(rtl)
+# Loading work.mux2_32(rtl)
+# Loading work.sl2_32(rtl)
+# Loading ieee.std_logic_textio(body)
+# Loading work.dmem(rtl)
+# Loading work.imem(rtl)
+# Loading work.signext(rtl)
+# Loading work.mux2_5(rtl)
+# Loading work.maindec(rtl)
+# Loading work.lpm_constant4(rtl)
+# Loading work.sl2_26(rtl)
+# Loading work.flopr(rtl)
+# Loading work.regfile(rtl)
+# Loading work.sl16_32(rtl)
+do C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/wave.do
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: marina  Hostname: DESKTOP-9R9KCH8  ProcessID: 15280
+# 
+#           Attempting to use alternate WLF file "./wlft1it1qh".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft1it1qh
+# 
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_imem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 52252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 53852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 54252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 55452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 56652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 57450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 57450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 57452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 103452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 105052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 106652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 107450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 107450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 107452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 153452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 155052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 155452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 156652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 157852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 158650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 158650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 158652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 204652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 206252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 207852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 208650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 208650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 208652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 254652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 256252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 256652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 257852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 259052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 259850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 259850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 259852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 305852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 307452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 309052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 309850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 309850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 309852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 355852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 357452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 357852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 359052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 360252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 361050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 361050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 361052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 407052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 408652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 410252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 411050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 411050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 411052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 457052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 458652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 459052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 460252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 461452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 462250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 462250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 462252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 508252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 509852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 511452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 512250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 512250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 512252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 558252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 559852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 560252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 561452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 562652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 563450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 563450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 563452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 609452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 611052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 612652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 613450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 613450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 613452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 659452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 661052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 661452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 662652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 663852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 664650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 664650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 664652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 710652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 712252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 713852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 714650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 714650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 714652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 760652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 762252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 762652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 763852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 765052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 765850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 765850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 765852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 811852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 813452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 815052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 815850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 815850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 815852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 861852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 863452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 863852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 865052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 866252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 867050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 867050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 867052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 913052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 914652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 916252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 917050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 917050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 917052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 963052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 964652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 965052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 966252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 967452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 968250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 968250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 968252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1014252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1015852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1017452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1018250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1018250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1018252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1064252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1065852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1066252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1067452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1068652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1069450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1069450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1069452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1115452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1117052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1118652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1119450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1119450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1119452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1165452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1167052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1167452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1168652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1169852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1170650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1170650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1170652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1216652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1218252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1219852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1220650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1220650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1220652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1266652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1268252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1268652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1269852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1271052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1271850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1271850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1271852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1317852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1319452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1321052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1321850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1321850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1321852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1367852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1369452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1369852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1371052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1372252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1373050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1373050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1373052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1419052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1420652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1422252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1423050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1423050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1423052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1469052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1470652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1471052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1472252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1473452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1474250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1474250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1474252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1520252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1521852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1523452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1524250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1524250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1524252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1570252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1571852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1572252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1573452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1574652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1575450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1575450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1575452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1621452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1623052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1624652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1625450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1625450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1625452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Failure: Probable Infinite Loop
+#    Time: 1637800 ns  Iteration: 1  Process: /top/last File: C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/top.vhd
+# Break in Process last at C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/top.vhd line 28
+restart
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_imem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 52252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 53852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 54252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 55452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 56652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 57450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 57450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 57452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 103452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 105052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 106652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 107450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 107450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 107452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 153452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 155052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 155452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 156652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 157852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 158650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 158650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 158652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 204652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 206252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 207852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 208650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 208650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 208652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 254652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 256252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 256652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 257852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 259052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 259850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 259850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 259852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 305852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 307452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 309052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 309850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 309850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 309852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 355852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 357452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 357852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 359052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 360252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 361050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 361050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 361052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 407052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 408652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 410252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 411050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 411050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 411052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 457052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 458652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 459052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 460252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 461452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 462250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 462250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 462252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 508252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 509852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 511452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 512250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 512250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 512252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 558252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 559852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 560252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 561452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 562652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 563450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 563450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 563452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 609452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 611052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 612652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 613450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 613450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 613452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 659452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 661052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 661452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 662652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 663852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 664650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 664650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 664652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 710652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 712252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 713852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 714650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 714650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 714652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 760652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 762252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 762652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 763852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 765052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 765850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 765850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 765852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 811852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 813452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 815052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 815850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 815850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 815852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 861852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 863452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 863852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 865052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 866252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 867050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 867050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 867052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 913052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 914652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 916252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 917050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 917050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 917052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 963052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 964652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 965052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 966252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 967452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 968250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 968250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 968252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1014252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1015852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1017452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1018250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1018250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1018252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1064252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1065852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1066252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1067452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1068652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1069450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1069450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1069452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1115452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1117052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1118652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1119450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1119450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1119452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1165452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1167052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1167452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1168652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1169852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1170650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1170650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1170652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1216652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1218252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1219852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1220650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1220650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1220652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1266652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1268252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1268652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1269852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1271052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1271850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1271850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1271852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1317852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1319452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1321052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1321850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1321850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1321852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1367852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1369452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1369852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1371052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1372252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1373050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1373050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1373052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1419052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1420652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1422252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1423050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1423050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1423052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1469052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1470652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1471052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1472252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1473452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1474250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1474250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1474252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1520252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1521852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1523452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1524250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1524250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1524252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1570252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1571852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1572252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1573452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1574652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1575450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1575450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1575452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1621452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1623052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1624652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1625450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1625450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1625452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Failure: Probable Infinite Loop
+#    Time: 1637800 ns  Iteration: 1  Process: /top/last File: C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/top.vhd
+# Break in Process last at C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/top.vhd line 28
+# Compile of adder.vhd was successful.
+# Compile of alu.vhd was successful.
+# Compile of aludec.vhd was successful.
+# Compile of dmem.vhd was successful.
+# Compile of flopr.vhd was successful.
+# Compile of imem.vhd was successful.
+# Compile of lpm_constant4.vhd was successful.
+# Compile of maindec.vhd was successful.
+# Compile of mips.vhd was successful.
+# Compile of mux2_5.vhd was successful.
+# Compile of mux2_32.vhd was successful.
+# Compile of mux4_32.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of signext.vhd was successful.
+# Compile of sl2_26.vhd was successful.
+# Compile of sl2_32.vhd was successful.
+# Compile of sl16_32.vhd was successful.
+# Compile of top.vhd was successful.
+# 18 compiles, 0 failed with no errors. 
+vsim work.top
+# vsim work.top 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.top(rtl)
+# Loading work.mips(bdf_type)
+# Loading work.alu(rtl)
+# Loading work.aludec(rtl)
+# Loading work.mux4_32(rtl)
+# Loading work.adder(rtl)
+# Loading work.mux2_32(rtl)
+# Loading work.sl2_32(rtl)
+# Loading ieee.std_logic_textio(body)
+# Loading work.dmem(rtl)
+# Loading work.imem(rtl)
+# Loading work.signext(rtl)
+# Loading work.mux2_5(rtl)
+# Loading work.maindec(rtl)
+# Loading work.lpm_constant4(rtl)
+# Loading work.sl2_26(rtl)
+# Loading work.flopr(rtl)
+# Loading work.regfile(rtl)
+# Loading work.sl16_32(rtl)
+do C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/wave.do
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: marina  Hostname: DESKTOP-9R9KCH8  ProcessID: 15280
+# 
+#           Attempting to use alternate WLF file "./wlftd5de9v".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftd5de9v
+# 
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_imem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 52252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 53852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 54252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 55452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 56652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 57450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 57450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 57452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 103452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 105052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 106652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 107450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 107450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 107452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 153452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 155052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 155452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 156652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 157852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 158650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 158650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 158652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 204652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 206252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 207852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 208650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 208650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 208652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 254652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 256252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 256652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 257852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 259052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 259850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 259850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 259852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 305852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 307452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 309052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 309850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 309850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 309852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 355852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 357452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 357852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 359052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 360252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 361050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 361050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 361052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 407052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 408652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 410252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 411050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 411050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 411052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 457052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 458652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 459052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 460252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 461452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 462250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 462250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 462252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 508252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 509852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 511452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 512250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 512250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 512252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 558252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 559852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 560252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 561452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 562652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 563450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 563450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 563452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 609452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 611052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 612652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 613450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 613450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 613452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 659452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 661052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 661452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 662652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 663852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 664650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 664650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 664652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 710652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 712252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 713852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 714650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 714650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 714652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 760652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 762252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 762652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 763852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 765052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 765850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 765850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 765852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 811852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 813452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 815052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 815850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 815850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 815852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 861852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 863452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 863852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 865052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 866252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 867050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 867050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 867052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 913052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 914652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 916252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 917050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 917050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 917052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 963052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 964652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 965052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 966252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 967452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 968250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 968250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 968252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1014252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1015852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1017452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1018250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1018250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1018252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1064252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1065852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1066252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1067452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1068652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1069450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1069450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1069452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1115452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1117052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1118652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1119450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1119450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1119452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1165452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1167052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1167452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1168652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1169852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1170650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1170650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1170652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1216652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1218252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1219852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1220650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1220650 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1220652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1266652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1268252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1268652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1269852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1271052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1271850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1271850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1271852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1317852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1319452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1321052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1321850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1321850 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1321852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1367852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1369452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1369852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1371052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1372252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1373050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1373050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1373052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1419052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1420652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1422252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1423050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1423050 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1423052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1469052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1470652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1471052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1472252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1473452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1474250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1474250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1474252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1520252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1521852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1523452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1524250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1524250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1524252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1570252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1571852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1572252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1573452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1574652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1575450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1575450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1575452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1621452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1623052 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1624652 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1625450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1625450 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1625452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+# ** Failure: Probable Infinite Loop
+#    Time: 1637800 ns  Iteration: 1  Process: /top/last File: C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/top.vhd
+# Break in Process last at C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/top.vhd line 28
+restart
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_imem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top/duv/b2v_dmem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /top/duv/b2v_dmem
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 3852 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 5452 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6250 ns  Iteration: 0  Instance: /top/duv/b2v_regfile
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 6252 ns  Iteration: 2  Instance: /top/duv/b2v_dmem
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

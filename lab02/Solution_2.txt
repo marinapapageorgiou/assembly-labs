@@ -1,0 +1,24 @@
+swapArray:
+   	add        $s0, $zero, $zero        #i=0
+
+   	srl        $s1, $a1, 1              #s1 counter from size/2 up
+
+  loop:
+        beq        $s1, $a1, exitLoop       #if s1 = size of array, done( s1 increments in every loop)
+        sll        $t0, $s0, 2
+        add        $t0, $t0, $a0            # &a[i] 
+        lw         $t1, 0($t0)              # t1 = a[i]
+        
+        
+        sll        $t2, $s1, 2              
+        add        $t2, $t2, $a0            # &a[i+size/2]
+        lw         $t3, 0($t2)              # t3 = a[i+size/2]
+        
+        sw         $t1, 0($t2)             #swap
+        sw         $t3, 0($t0)
+	
+	addi       $s0, $s0, 1             #i=i+1
+	addi       $s1, $s1, 1             #increment "upper" index
+	j loop
+	
+  exitLoop:     

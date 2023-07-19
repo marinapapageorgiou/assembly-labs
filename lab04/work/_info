@@ -1,0 +1,673 @@
+m255
+K3
+13
+cModel Technology
+dC:\Windows\System32
+Eadder
+Z0 w1637427970
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\marina\Documents\GitHub\lab04\lab04-marinapapageorgiou
+Z5 8C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/adder.vhd
+Z6 FC:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/adder.vhd
+l0
+L6
+Vf;6[2`UP4cz21X=0mcS1W0
+Z7 OV;C;10.1d;51
+32
+Z8 !s108 1637877976.094000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/adder.vhd|
+Z10 !s107 C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/adder.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 VNRAMH=7^2TBNeRBoA1l^0
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 5 adder 0 22 f;6[2`UP4cz21X=0mcS1W0
+l16
+L15
+VIR:INJbDZloRT1BbXkRRO2
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!s100 `iCNi`<m`^1n428?UfMGj2
+!i10b 1
+Ealu
+Z13 w1637427970
+R1
+R2
+R3
+R4
+Z14 8C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/alu.vhd
+Z15 FC:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/alu.vhd
+l0
+L6
+VR4kT;=5^3PS_m_IP1Dil63
+R7
+32
+Z16 !s108 1637877976.537000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/alu.vhd|
+Z18 !s107 C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/alu.vhd|
+R11
+R12
+!s100 LVOfYg4R_2aJDg[i>>Dk00
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 3 alu 0 22 R4kT;=5^3PS_m_IP1Dil63
+l24
+L17
+VJ9Pz@BJCkN:Gf`ogk4DM_0
+R7
+32
+R16
+R17
+R18
+R11
+R12
+!s100 80h8z?UG:OX@1NEe@^^P02
+!i10b 1
+Ealudec
+Z19 w1637876765
+R1
+R2
+R3
+R4
+Z20 8C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/aludec.vhd
+Z21 FC:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/aludec.vhd
+l0
+L6
+V_8F@NH6eaH0KC`6IU`5cD2
+R7
+32
+Z22 !s108 1637877976.969000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/aludec.vhd|
+Z24 !s107 C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/aludec.vhd|
+R11
+R12
+!s100 oVooazLNW:NE0[iLE_Cg22
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 6 aludec 0 22 _8F@NH6eaH0KC`6IU`5cD2
+l16
+L15
+V_HL8Eh1Y^b5UXTGPobd@C1
+R7
+32
+R22
+R23
+R24
+R11
+R12
+!s100 O6D[THYid0T^QTam9S4cL0
+!i10b 1
+Edmem
+R13
+R1
+Z25 DPx4 ieee 16 std_logic_textio 0 22 ?Il0a149GV276[?[UMDWh2
+R2
+R3
+R4
+Z26 8C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/dmem.vhd
+Z27 FC:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/dmem.vhd
+l0
+L8
+VLJOQNfUhifFb?81j>gGAo2
+R7
+32
+Z28 !s108 1637877977.644000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/dmem.vhd|
+Z30 !s107 C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/dmem.vhd|
+R11
+R12
+!s100 ba@m1KoZ;m0eIWoA`mM[91
+!i10b 1
+Artl
+R1
+R25
+R2
+R3
+DEx4 work 4 dmem 0 22 LJOQNfUhifFb?81j>gGAo2
+l45
+L19
+VcQcn[1d;lJ0J8=zedQj2]0
+R7
+32
+R28
+R29
+R30
+R11
+R12
+!s100 Hdhde9W1a3>V_B_ih>h;>0
+!i10b 1
+Eflopr
+R13
+R1
+R2
+R3
+R4
+Z31 8C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/flopr.vhd
+Z32 FC:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/flopr.vhd
+l0
+L5
+VBS4Qj]hFn?JehnOEK4SJ=0
+R7
+32
+Z33 !s108 1637877978.092000
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/flopr.vhd|
+Z35 !s107 C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/flopr.vhd|
+R11
+R12
+!s100 To_C0m^h8X`0Ra]kU>G`K3
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 5 flopr 0 22 BS4Qj]hFn?JehnOEK4SJ=0
+l17
+L14
+V[oPRgJWJdJASMWj5EPV6]1
+R7
+32
+R33
+R34
+R35
+R11
+R12
+!s100 E>:cLTo=iXCnbkhi@:>z01
+!i10b 1
+Eimem
+R13
+R1
+R25
+R2
+R3
+R4
+Z36 8C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/imem.vhd
+Z37 FC:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/imem.vhd
+l0
+L8
+VczHlm6<bboOT5z`8Z@i_o2
+R7
+32
+Z38 !s108 1637877978.505000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/imem.vhd|
+Z40 !s107 C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/imem.vhd|
+R11
+R12
+!s100 0RojciDJP42hDHBYE=3RU0
+!i10b 1
+Artl
+R1
+R25
+R2
+R3
+DEx4 work 4 imem 0 22 czHlm6<bboOT5z`8Z@i_o2
+l45
+L16
+VYBNz0KX]IK]Fa8Gl_nJ2H2
+R7
+32
+R38
+R39
+R40
+R11
+R12
+!s100 22B@_1D3n07[MJX@[E;?c1
+!i10b 1
+Elpm_constant4
+R13
+R1
+R2
+R3
+R4
+Z41 8C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/lpm_constant4.vhd
+Z42 FC:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/lpm_constant4.vhd
+l0
+L5
+V_jVWH9k?aBH;9lllSGK`]1
+R7
+32
+Z43 !s108 1637877978.910000
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/lpm_constant4.vhd|
+Z45 !s107 C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/lpm_constant4.vhd|
+R11
+R12
+!s100 ^QFNJ_6TGAO0:G24nN>=60
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 13 lpm_constant4 0 22 _jVWH9k?aBH;9lllSGK`]1
+l13
+L11
+V_9hBWlk?5`^d`UNO`kg:S1
+R7
+32
+R43
+R44
+R45
+R11
+R12
+!s100 gmJbE1fW12T0Di1TjcA5B3
+!i10b 1
+Emaindec
+Z46 w1637876361
+R1
+R2
+R3
+R4
+Z47 8C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/maindec.vhd
+Z48 FC:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/maindec.vhd
+l0
+L6
+VaL66KjZMa1MM7a`alDK1Z2
+R7
+32
+Z49 !s108 1637877979.265000
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/maindec.vhd|
+Z51 !s107 C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/maindec.vhd|
+R11
+R12
+!s100 Kl^oLIK08]CW]19D[Pn2>1
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 7 maindec 0 22 aL66KjZMa1MM7a`alDK1Z2
+l31
+L23
+Vld?]iPjLO4Wad`I>`3[d81
+R7
+32
+R49
+R50
+R51
+R11
+R12
+!s100 HPBjDFSgFDk^S>I8_96_Q2
+!i10b 1
+Emips
+Z52 w1637428067
+R2
+R3
+R4
+Z53 8C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mips.vhd
+Z54 FC:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mips.vhd
+l0
+L24
+VV6X>_?7=F9BO_O54A`;j42
+R7
+32
+Z55 !s108 1637877979.693000
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mips.vhd|
+Z57 !s107 C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mips.vhd|
+R11
+R12
+!s100 >b]dC_U:=KJeGO<Y?zl0j1
+!i10b 1
+Abdf_type
+R2
+R3
+DEx4 work 4 mips 0 22 V6X>_?7=F9BO_O54A`;j42
+l196
+L32
+V8SV;EGZgKeozc=6cjI<??0
+R7
+32
+R55
+R56
+R57
+R11
+R12
+!s100 D[iC0M86L0eEWZ@L=La<k3
+!i10b 1
+Emux2_32
+R13
+R1
+R2
+R3
+R4
+Z58 8C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mux2_32.vhd
+Z59 FC:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mux2_32.vhd
+l0
+L6
+VWGUGRMlWbzDHeamGzB1;D3
+R7
+32
+Z60 !s108 1637877980.581000
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mux2_32.vhd|
+Z62 !s107 C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mux2_32.vhd|
+R11
+R12
+!s100 H:`hclmGkLQ25<jWabFUW1
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 7 mux2_32 0 22 WGUGRMlWbzDHeamGzB1;D3
+l17
+L16
+V[][e5bX0NgUQ[558<4_b^1
+R7
+32
+R60
+R61
+R62
+R11
+R12
+!s100 ZX@X_Ye;;T?6:UlYWjYD31
+!i10b 1
+Emux2_5
+R13
+R1
+R2
+R3
+R4
+Z63 8C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mux2_5.vhd
+Z64 FC:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mux2_5.vhd
+l0
+L6
+VP4@[zebe8l9]P2hQPQ8PH1
+R7
+32
+Z65 !s108 1637877980.202000
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mux2_5.vhd|
+Z67 !s107 C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mux2_5.vhd|
+R11
+R12
+!s100 ?BTEkHXHM3ReUc9o127[d0
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 6 mux2_5 0 22 P4@[zebe8l9]P2hQPQ8PH1
+l17
+L16
+V2oa`MNcOk7I>GAAKE5Sjc2
+R7
+32
+R65
+R66
+R67
+R11
+R12
+!s100 NOg8Ae<ii`DP<B1Sl[>df0
+!i10b 1
+Emux4_32
+R13
+R1
+R2
+R3
+R4
+Z68 8C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mux4_32.vhd
+Z69 FC:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mux4_32.vhd
+l0
+L6
+VL0HV@Y7a]LKK=TGFFNmIR3
+R7
+32
+Z70 !s108 1637877980.969000
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mux4_32.vhd|
+Z72 !s107 C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mux4_32.vhd|
+R11
+R12
+!s100 2jBA_88Hl6aDzhXZg6]OF2
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 7 mux4_32 0 22 L0HV@Y7a]LKK=TGFFNmIR3
+l19
+L18
+VcMS]jgOIQf>NzDb@>oo^K2
+R7
+32
+R70
+R71
+R72
+R11
+R12
+!s100 XkoIcC:>e<9UDfPlUFLkd1
+!i10b 1
+Eregfile
+R13
+R1
+R2
+R3
+R4
+Z73 8C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/regfile.vhd
+Z74 FC:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/regfile.vhd
+l0
+L5
+V=QJ^A^1RTPICjLfOfSM360
+R7
+32
+Z75 !s108 1637877981.321000
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/regfile.vhd|
+Z77 !s107 C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/regfile.vhd|
+R11
+R12
+!s100 b=8TgH2P=GQfXl6P1dl?12
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 7 regfile 0 22 =QJ^A^1RTPICjLfOfSM360
+l26
+L18
+V_Bc[]dh7hRaibhBV3l7IH3
+R7
+32
+R75
+R76
+R77
+R11
+R12
+!s100 6G:Y9K8e?0d55KU1CNhXW0
+!i10b 1
+Esignext
+R13
+R1
+R2
+R3
+R4
+Z78 8C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/signext.vhd
+Z79 FC:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/signext.vhd
+l0
+L6
+V71X43fagPfM;@:24e@OHm0
+R7
+32
+Z80 !s108 1637877981.703000
+Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/signext.vhd|
+Z82 !s107 C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/signext.vhd|
+R11
+R12
+!s100 7n`<_AeQTBO6e8DJRmZoG0
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 7 signext 0 22 71X43fagPfM;@:24e@OHm0
+l15
+L14
+VAog?[KJ_[1bd@nHbgXB^43
+R7
+32
+R80
+R81
+R82
+R11
+R12
+!s100 c:JfoiiY;<S0P@NZ3PzJB0
+!i10b 1
+Esl16_32
+R13
+R1
+R2
+R3
+R4
+Z83 8C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/sl16_32.vhd
+Z84 FC:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/sl16_32.vhd
+l0
+L6
+V6@K@S^LzW:8L?g_i0KV:I3
+R7
+32
+Z85 !s108 1637877982.721000
+Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/sl16_32.vhd|
+Z87 !s107 C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/sl16_32.vhd|
+R11
+R12
+!s100 39mBnLBC=blS6Je?`@`V_0
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 7 sl16_32 0 22 6@K@S^LzW:8L?g_i0KV:I3
+l16
+L14
+V88FkFkV_PLg3iHfPJO=`@1
+!s100 k:2B5zQGT40UH@TQ<EYe`0
+R7
+32
+R85
+R86
+R87
+R11
+R12
+!i10b 1
+Esl2_26
+R13
+R1
+R2
+R3
+R4
+Z88 8C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/sl2_26.vhd
+Z89 FC:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/sl2_26.vhd
+l0
+L5
+VhHM[2KfDHl<Zm:?cJ14:=0
+R7
+32
+Z90 !s108 1637877982.009000
+Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/sl2_26.vhd|
+Z92 !s107 C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/sl2_26.vhd|
+R11
+R12
+!s100 O^Nc31S3V2_lz_SOPYDfm0
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 6 sl2_26 0 22 hHM[2KfDHl<Zm:?cJ14:=0
+l14
+L12
+V=UhTf_2^NQURgG>bh<2oJ3
+R7
+32
+R90
+R91
+R92
+R11
+R12
+!s100 Iakf1abI`==4NKJnGkMa10
+!i10b 1
+Esl2_32
+R13
+R1
+R2
+R3
+R4
+Z93 8C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/sl2_32.vhd
+Z94 FC:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/sl2_32.vhd
+l0
+L6
+V:ge2HZGVNB8T29G?ID^1A0
+R7
+32
+Z95 !s108 1637877982.369000
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/sl2_32.vhd|
+Z97 !s107 C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/sl2_32.vhd|
+R11
+R12
+!s100 U`GZ`X:7MdRVLoUH7gMmG3
+!i10b 1
+Artl
+R1
+R2
+R3
+DEx4 work 6 sl2_32 0 22 :ge2HZGVNB8T29G?ID^1A0
+l16
+L14
+V62NeX:=?Rz>d>HIS7goRG2
+R7
+32
+R95
+R96
+R97
+R11
+R12
+!s100 MQMb0BcD]cWEzT[cdU5]V2
+!i10b 1
+Etop
+R13
+R1
+R2
+R3
+R4
+Z98 8C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/top.vhd
+Z99 FC:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/top.vhd
+l0
+L5
+VlJeCU;D8NjiYTaBV33=MX2
+!s100 c?Pn_c82=LAh6NJdPSg@52
+R7
+32
+!i10b 1
+Z100 !s108 1637877983.122000
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/top.vhd|
+Z102 !s107 C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/top.vhd|
+R11
+R12
+Artl
+R1
+R2
+R3
+Z103 DEx4 work 3 top 0 22 lJeCU;D8NjiYTaBV33=MX2
+l18
+L8
+Z104 VgEhW3aafC9`2bQ^eke6EL0
+Z105 !s100 5c6jl`CNN@:nVJMZ@HM3^1
+R7
+32
+!i10b 1
+R100
+R101
+R102
+R11
+R12

@@ -1,0 +1,726 @@
+Analysis & Synthesis report for mips
+Fri Nov 26 00:02:48 2021
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Registers Protected by Synthesis
+  9. General Register Statistics
+ 10. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 11. Source assignments for imem:b2v_imem
+ 12. Source assignments for flopr:b2v_pc_reg
+ 13. Source assignments for regfile:b2v_regfile
+ 14. Port Connectivity Checks: "maindec:b2v_inst10"
+ 15. Elapsed Time Per Partition
+ 16. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Fri Nov 26 00:02:47 2021           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; mips                                            ;
+; Top-level Entity Name              ; mips                                            ;
+; Family                             ; Cyclone IV GX                                   ;
+; Total logic elements               ; 6,232                                           ;
+;     Total combinational functions  ; 3,224                                           ;
+;     Dedicated logic registers      ; 3,104                                           ;
+; Total registers                    ; 3104                                            ;
+; Total pins                         ; 2                                               ;
+; Total virtual pins                 ; 0                                               ;
+; Total memory bits                  ; 0                                               ;
+; Embedded Multiplier 9-bit elements ; 0                                               ;
+; Total GXB Receiver Channel PCS     ; 0                                               ;
+; Total GXB Receiver Channel PMA     ; 0                                               ;
+; Total GXB Transmitter Channel PCS  ; 0                                               ;
+; Total GXB Transmitter Channel PMA  ; 0                                               ;
+; Total PLLs                         ; 0                                               ;
++------------------------------------+-------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Top-level entity name                                                      ; mips               ; mips               ;
+; Family name                                                                ; Cyclone IV GX      ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                   ;
++----------------------------------+-----------------+-----------------------+-----------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type             ; File Name with Absolute Path                                                      ; Library ;
++----------------------------------+-----------------+-----------------------+-----------------------------------------------------------------------------------+---------+
+; mips.vhd                         ; yes             ; Auto-Found VHDL File  ; C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mips.vhd          ;         ;
+; alu.vhd                          ; yes             ; Auto-Found VHDL File  ; C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/alu.vhd           ;         ;
+; aludec.vhd                       ; yes             ; Auto-Found VHDL File  ; C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/aludec.vhd        ;         ;
+; mux4_32.vhd                      ; yes             ; Auto-Found VHDL File  ; C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mux4_32.vhd       ;         ;
+; adder.vhd                        ; yes             ; Auto-Found VHDL File  ; C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/adder.vhd         ;         ;
+; mux2_32.vhd                      ; yes             ; Auto-Found VHDL File  ; C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mux2_32.vhd       ;         ;
+; sl2_32.vhd                       ; yes             ; Auto-Found VHDL File  ; C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/sl2_32.vhd        ;         ;
+; dmem.vhd                         ; yes             ; Auto-Found VHDL File  ; C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/dmem.vhd          ;         ;
+; imem.vhd                         ; yes             ; Auto-Found VHDL File  ; C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/imem.vhd          ;         ;
+; signext.vhd                      ; yes             ; Auto-Found VHDL File  ; C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/signext.vhd       ;         ;
+; mux2_5.vhd                       ; yes             ; Auto-Found VHDL File  ; C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mux2_5.vhd        ;         ;
+; maindec.vhd                      ; yes             ; Auto-Found VHDL File  ; C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/maindec.vhd       ;         ;
+; lpm_constant4.vhd                ; yes             ; Auto-Found VHDL File  ; C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/lpm_constant4.vhd ;         ;
+; sl2_26.vhd                       ; yes             ; Auto-Found VHDL File  ; C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/sl2_26.vhd        ;         ;
+; flopr.vhd                        ; yes             ; Auto-Found VHDL File  ; C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/flopr.vhd         ;         ;
+; regfile.vhd                      ; yes             ; Auto-Found VHDL File  ; C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/regfile.vhd       ;         ;
+; sl16_32.vhd                      ; yes             ; Auto-Found VHDL File  ; C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/sl16_32.vhd       ;         ;
++----------------------------------+-----------------+-----------------------+-----------------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary ;
++--------------------------+------------------+
+; Resource                 ; Usage            ;
++--------------------------+------------------+
+; I/O pins                 ; 2                ;
+; DSP block 9-bit elements ; 0                ;
+; Maximum fan-out node     ; clk~input        ;
+; Maximum fan-out          ; 3104             ;
+; Total fan-out            ; 21716            ;
+; Average fan-out          ; 3.43             ;
++--------------------------+------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                           ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name       ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------------+--------------+
+; |mips                      ; 3224 (13)         ; 3104 (0)     ; 0           ; 0            ; 0       ; 0         ; 0         ; 2    ; 0            ; |mips                     ; work         ;
+;    |adder:b2v_br_adder|    ; 34 (34)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |mips|adder:b2v_br_adder  ; work         ;
+;    |adder:b2v_pc_adder|    ; 30 (30)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |mips|adder:b2v_pc_adder  ; work         ;
+;    |alu:b2v_alu|           ; 131 (131)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |mips|alu:b2v_alu         ; work         ;
+;    |aludec:b2v_aludec|     ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |mips|aludec:b2v_aludec   ; work         ;
+;    |dmem:b2v_dmem|         ; 1426 (1426)       ; 2048 (2048)  ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |mips|dmem:b2v_dmem       ; work         ;
+;    |flopr:b2v_pc_reg|      ; 2 (2)             ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |mips|flopr:b2v_pc_reg    ; work         ;
+;    |imem:b2v_imem|         ; 32 (32)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |mips|imem:b2v_imem       ; work         ;
+;    |maindec:b2v_inst10|    ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |mips|maindec:b2v_inst10  ; work         ;
+;    |mux2_32:b2v_inst9|     ; 32 (32)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |mips|mux2_32:b2v_inst9   ; work         ;
+;    |mux2_32:b2v_npc_mux|   ; 52 (52)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |mips|mux2_32:b2v_npc_mux ; work         ;
+;    |mux2_5:b2v_inst|       ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |mips|mux2_5:b2v_inst     ; work         ;
+;    |mux4_32:b2v_b_mux|     ; 56 (56)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |mips|mux4_32:b2v_b_mux   ; work         ;
+;    |regfile:b2v_regfile|   ; 1398 (1398)       ; 1024 (1024)  ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |mips|regfile:b2v_regfile ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++----------------------------------------------------------------------------------------------------------------------------------------+
+; Registers Protected by Synthesis                                                                                                       ;
++------------------------+------------------------------------------------------------------+--------------------------------------------+
+; Register Name          ; Protected by Synthesis Attribute or Preserve Register Assignment ; Not to be Touched by Netlist Optimizations ;
++------------------------+------------------------------------------------------------------+--------------------------------------------+
+; flopr:b2v_pc_reg|q[31] ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[30] ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[29] ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[28] ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[27] ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[26] ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[25] ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[24] ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[23] ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[22] ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[21] ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[20] ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[19] ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[18] ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[17] ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[16] ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[15] ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[14] ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[13] ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[12] ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[11] ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[10] ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[9]  ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[8]  ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[7]  ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[6]  ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[5]  ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[4]  ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[3]  ; yes                                                              ; yes                                        ;
+; flopr:b2v_pc_reg|q[2]  ; yes                                                              ; yes                                        ;
++------------------------+------------------------------------------------------------------+--------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 3104  ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 32    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 3072  ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                              ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output    ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------+
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |mips|flopr:b2v_pc_reg|q[31]  ;
+; 3:1                ; 26 bits   ; 52 LEs        ; 52 LEs               ; 0 LEs                  ; Yes        ; |mips|flopr:b2v_pc_reg|q[5]   ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |mips|mux4_32:b2v_b_mux|Mux30 ;
+; 3:1                ; 15 bits   ; 30 LEs        ; 30 LEs               ; 0 LEs                  ; No         ; |mips|mux4_32:b2v_b_mux|Mux1  ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |mips|aludec:b2v_aludec|Mux2  ;
+; 4:1                ; 31 bits   ; 62 LEs        ; 62 LEs               ; 0 LEs                  ; No         ; |mips|alu:b2v_alu|Mux0        ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------+
+
+
++-----------------------------------------------------------+
+; Source assignments for imem:b2v_imem                      ;
++------------------------------+-------+------+-------------+
+; Assignment                   ; Value ; From ; To          ;
++------------------------------+-------+------+-------------+
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[31]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[31]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[30]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[30]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[29]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[29]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[28]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[28]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[27]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[27]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[26]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[26]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[25]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[25]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[24]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[24]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[23]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[23]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[22]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[22]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[21]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[21]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[20]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[20]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[19]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[19]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[18]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[18]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[17]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[17]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[16]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[16]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[15]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[15]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[14]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[14]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[13]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[13]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[12]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[12]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[11]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[11]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[10]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[10]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[9]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[9]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[8]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[8]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[7]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[7]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[6]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[6]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[5]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[5]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[4]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[4]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[3]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[3]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[2]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[2]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[1]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[1]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd[0]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd[0]~buf0  ;
++------------------------------+-------+------+-------------+
+
+
++-------------------------------------------------------+
+; Source assignments for flopr:b2v_pc_reg               ;
++---------------------------+-------+------+------------+
+; Assignment                ; Value ; From ; To         ;
++---------------------------+-------+------+------------+
+; PRESERVE_REGISTER         ; on    ; -    ; q[31]~reg0 ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[31]~reg0 ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[30]~reg0 ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[30]~reg0 ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[29]~reg0 ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[29]~reg0 ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[28]~reg0 ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[28]~reg0 ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[27]~reg0 ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[27]~reg0 ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[26]~reg0 ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[26]~reg0 ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[25]~reg0 ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[25]~reg0 ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[24]~reg0 ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[24]~reg0 ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[23]~reg0 ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[23]~reg0 ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[22]~reg0 ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[22]~reg0 ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[21]~reg0 ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[21]~reg0 ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[20]~reg0 ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[20]~reg0 ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[19]~reg0 ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[19]~reg0 ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[18]~reg0 ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[18]~reg0 ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[17]~reg0 ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[17]~reg0 ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[16]~reg0 ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[16]~reg0 ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[15]~reg0 ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[15]~reg0 ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[14]~reg0 ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[14]~reg0 ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[13]~reg0 ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[13]~reg0 ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[12]~reg0 ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[12]~reg0 ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[11]~reg0 ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[11]~reg0 ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[10]~reg0 ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[10]~reg0 ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[9]~reg0  ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[9]~reg0  ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[8]~reg0  ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[8]~reg0  ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[7]~reg0  ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[7]~reg0  ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[6]~reg0  ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[6]~reg0  ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[5]~reg0  ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[5]~reg0  ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[4]~reg0  ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[4]~reg0  ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[3]~reg0  ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[3]~reg0  ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[2]~reg0  ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[2]~reg0  ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[1]~reg0  ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[1]~reg0  ;
+; PRESERVE_REGISTER         ; on    ; -    ; q[0]~reg0  ;
+; PRESERVE_FANOUT_FREE_NODE ; on    ; -    ; q[0]~reg0  ;
++---------------------------+-------+------+------------+
+
+
++------------------------------------------------------------+
+; Source assignments for regfile:b2v_regfile                 ;
++------------------------------+-------+------+--------------+
+; Assignment                   ; Value ; From ; To           ;
++------------------------------+-------+------+--------------+
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[31]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[31]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[30]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[30]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[29]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[29]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[28]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[28]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[27]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[27]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[26]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[26]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[25]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[25]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[24]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[24]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[23]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[23]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[22]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[22]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[21]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[21]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[20]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[20]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[19]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[19]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[18]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[18]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[17]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[17]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[16]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[16]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[15]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[15]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[14]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[14]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[13]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[13]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[12]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[12]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[11]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[11]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[10]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[10]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[9]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[9]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[8]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[8]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[7]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[7]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[6]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[6]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[5]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[5]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[4]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[4]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[3]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[3]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[2]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[2]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[1]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[1]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd1[0]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd1[0]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[31]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[31]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[30]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[30]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[29]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[29]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[28]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[28]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[27]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[27]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[26]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[26]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[25]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[25]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[24]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[24]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[23]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[23]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[22]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[22]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[21]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[21]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[20]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[20]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[19]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[19]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[18]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[18]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[17]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[17]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[16]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[16]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[15]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[15]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[14]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[14]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[13]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[13]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[12]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[12]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[11]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[11]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[10]~buf0 ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[10]~buf0 ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[9]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[9]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[8]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[8]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[7]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[7]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[6]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[6]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[5]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[5]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[4]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[4]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[3]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[3]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[2]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[2]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[1]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[1]~buf0  ;
+; IGNORE_LCELL_BUFFERS         ; off   ; -    ; rd2[0]~buf0  ;
+; REMOVE_REDUNDANT_LOGIC_CELLS ; off   ; -    ; rd2[0]~buf0  ;
++------------------------------+-------+------+--------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "maindec:b2v_inst10"                                                                        ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port        ; Type   ; Severity ; Details                                                                             ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; bne         ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; jr          ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; memtoreg[1] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; regdst[1]   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:25     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Fri Nov 26 00:02:14 2021
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off mips -c mips
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Warning (12125): Using design file mips.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: mips-bdf_type
+    Info (12023): Found entity 1: mips
+Warning (12300): Found the following files while searching for definition of entity "mips", but did not use these files because already using a different file containing the entity definition
+    Warning (12126): File: mips.bdf
+Info (12127): Elaborating entity "mips" for the top level hierarchy
+Warning (12125): Using design file alu.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: alu-RTL
+    Info (12023): Found entity 1: alu
+Info (12128): Elaborating entity "alu" for hierarchy "alu:b2v_alu"
+Warning (12125): Using design file aludec.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: aludec-RTL
+    Info (12023): Found entity 1: aludec
+Info (12128): Elaborating entity "aludec" for hierarchy "aludec:b2v_aludec"
+Warning (12125): Using design file mux4_32.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: mux4_32-RTL
+    Info (12023): Found entity 1: mux4_32
+Info (12128): Elaborating entity "mux4_32" for hierarchy "mux4_32:b2v_b_mux"
+Warning (12125): Using design file adder.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: adder-RTL
+    Info (12023): Found entity 1: adder
+Info (12128): Elaborating entity "adder" for hierarchy "adder:b2v_br_adder"
+Warning (12125): Using design file mux2_32.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: mux2_32-RTL
+    Info (12023): Found entity 1: mux2_32
+Info (12128): Elaborating entity "mux2_32" for hierarchy "mux2_32:b2v_br_mux"
+Warning (12125): Using design file sl2_32.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: sl2_32-RTL
+    Info (12023): Found entity 1: sl2_32
+Info (12128): Elaborating entity "sl2_32" for hierarchy "sl2_32:b2v_br_shift"
+Warning (12125): Using design file dmem.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: dmem-RTL
+    Info (12023): Found entity 1: dmem
+Info (12128): Elaborating entity "dmem" for hierarchy "dmem:b2v_dmem"
+Warning (12125): Using design file imem.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: imem-RTL
+    Info (12023): Found entity 1: imem
+Info (12128): Elaborating entity "imem" for hierarchy "imem:b2v_imem"
+Warning (12125): Using design file signext.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: signext-RTL
+    Info (12023): Found entity 1: signext
+Info (12128): Elaborating entity "signext" for hierarchy "signext:b2v_imm_signext"
+Warning (12125): Using design file mux2_5.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: mux2_5-RTL
+    Info (12023): Found entity 1: mux2_5
+Info (12128): Elaborating entity "mux2_5" for hierarchy "mux2_5:b2v_inst"
+Warning (12125): Using design file maindec.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: maindec-RTL
+    Info (12023): Found entity 1: maindec
+Info (12128): Elaborating entity "maindec" for hierarchy "maindec:b2v_inst10"
+Warning (12125): Using design file lpm_constant4.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: lpm_constant4-RTL
+    Info (12023): Found entity 1: lpm_constant4
+Info (12128): Elaborating entity "lpm_constant4" for hierarchy "lpm_constant4:b2v_inst27"
+Warning (12125): Using design file sl2_26.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: sl2_26-RTL
+    Info (12023): Found entity 1: sl2_26
+Info (12128): Elaborating entity "sl2_26" for hierarchy "sl2_26:b2v_jump_shft"
+Warning (12125): Using design file flopr.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: flopr-RTL
+    Info (12023): Found entity 1: flopr
+Info (12128): Elaborating entity "flopr" for hierarchy "flopr:b2v_pc_reg"
+Warning (12125): Using design file regfile.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: regfile-RTL
+    Info (12023): Found entity 1: regfile
+Info (12128): Elaborating entity "regfile" for hierarchy "regfile:b2v_regfile"
+Warning (12125): Using design file sl16_32.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+    Info (12022): Found design unit 1: sl16_32-RTL
+    Info (12023): Found entity 1: sl16_32
+Info (12128): Elaborating entity "sl16_32" for hierarchy "sl16_32:b2v_upper_imm"
+Info (276014): Found 2 instances of uninferred RAM logic
+    Info (276007): RAM logic "regfile:b2v_regfile|rf" is uninferred due to asynchronous read logic
+    Info (276007): RAM logic "dmem:b2v_dmem|ram" is uninferred due to asynchronous read logic
+Info (286030): Timing-Driven Synthesis is running
+Info (17016): Found the following redundant logic cells in design
+    Info (17048): Logic cell "imem:b2v_imem|rd[15]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[14]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[13]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[12]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[11]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[10]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[9]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[8]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[7]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[6]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[5]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[4]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[3]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[2]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[1]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[0]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[27]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[31]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[29]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[28]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[30]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[26]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[25]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[24]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[23]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[22]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[21]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[20]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[19]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[18]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[17]"
+    Info (17048): Logic cell "imem:b2v_imem|rd[16]"
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 6298 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 2 input pins
+    Info (21059): Implemented 0 output pins
+    Info (21061): Implemented 6296 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 20 warnings
+    Info: Peak virtual memory: 4703 megabytes
+    Info: Processing ended: Fri Nov 26 00:02:48 2021
+    Info: Elapsed time: 00:00:34
+    Info: Total CPU time (on all processors): 00:00:33
+
+

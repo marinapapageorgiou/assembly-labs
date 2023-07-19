@@ -1,0 +1,146 @@
+C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/sl2_32.vhd {1 {vcom -work work -2002 -explicit C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/sl2_32.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sl2_32
+-- Compiling architecture RTL of sl2_32
+
+} {} {}} C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/imem.vhd {1 {vcom -work work -2002 -explicit C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/imem.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Compiling entity imem
+-- Compiling architecture RTL of imem
+
+} {} {}} C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mux2_32.vhd {1 {vcom -work work -2002 -explicit C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mux2_32.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux2_32
+-- Compiling architecture RTL of mux2_32
+
+} {} {}} C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/sl16_32.vhd {1 {vcom -work work -2002 -explicit C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/sl16_32.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sl16_32
+-- Compiling architecture RTL of sl16_32
+
+} {} {}} C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/alu.vhd {1 {vcom -work work -2002 -explicit C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/alu.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu
+-- Compiling architecture RTL of alu
+
+} {} {}} C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mux4_32.vhd {1 {vcom -work work -2002 -explicit C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mux4_32.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux4_32
+-- Compiling architecture RTL of mux4_32
+
+} {} {}} C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/dmem.vhd {1 {vcom -work work -2002 -explicit C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/dmem.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Compiling entity dmem
+-- Compiling architecture RTL of dmem
+
+} {} {}} C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/flopr.vhd {1 {vcom -work work -2002 -explicit C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/flopr.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity flopr
+-- Compiling architecture RTL of flopr
+
+} {} {}} C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/regfile.vhd {1 {vcom -work work -2002 -explicit C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/regfile.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity regfile
+-- Compiling architecture RTL of regfile
+
+} {} {}} C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/lpm_constant4.vhd {1 {vcom -work work -2002 -explicit C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/lpm_constant4.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity lpm_constant4
+-- Compiling architecture RTL of lpm_constant4
+
+} {} {}} C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/sl2_26.vhd {1 {vcom -work work -2002 -explicit C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/sl2_26.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sl2_26
+-- Compiling architecture RTL of sl2_26
+
+} {} {}} C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/adder.vhd {1 {vcom -work work -2002 -explicit C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/adder.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity adder
+-- Compiling architecture RTL of adder
+
+} {} {}} C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mux2_5.vhd {1 {vcom -work work -2002 -explicit C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mux2_5.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux2_5
+-- Compiling architecture RTL of mux2_5
+
+} {} {}} C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mips.vhd {1 {vcom -work work -2002 -explicit C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/mips.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mips
+-- Compiling architecture bdf_type of mips
+
+} {} {}} C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/signext.vhd {1 {vcom -work work -2002 -explicit C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/signext.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity signext
+-- Compiling architecture RTL of signext
+
+} {} {}} C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/top.vhd {1 {vcom -work work -2002 -explicit C:/Users/marina/Documents/GitHub/lab04/lab04-marinapapageorgiou/top.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity top
+-- Compiling architecture RTL of top
+
+} {} {}}

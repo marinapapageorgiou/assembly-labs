@@ -1,0 +1,95 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+
+entity maindec is
+	port(
+		op       : in  std_logic_vector(5 downto 0); -- Op Code Field of Instruction.
+		funct    : in  std_logic_vector(5 downto 0); -- Funct Field of R-type Instructions.
+		regwrite : out std_logic;
+		regdst   : out std_logic_vector(1 downto 0);
+		alusrc   : out std_logic_vector(1 downto 0);
+		aluop    : out std_logic_vector(1 downto 0);
+		branch   : out std_logic;
+		bne      : out std_logic;
+		jump     : out std_logic;
+		jr       : out std_logic;
+		memwrite : out std_logic;
+		memtoreg : out std_logic_vector(1 downto 0)
+	);
+end entity maindec;
+
+architecture RTL of maindec is
+	-- Implemented Instructions:
+	-- add, sub, and, or, slt.
+	-- addi, addiu (same as addi, ignores overflows),
+	-- ori,
+   -- lui,
+	-- lw, sw,
+	-- beq, j
+begin
+	dec : process(op, funct)
+	begin
+		-- Default Values for Signals.
+		branch   <= '0';
+		bne      <= '0';
+		jump     <= '0';
+		jr       <= '0';
+		alusrc   <= "XX"; -- Second ALU source, unimportant.
+		aluop    <= "XX"; -- ALU operation, unimportant.
+		memtoreg <= "XX"; -- Result Mux, unimportant.
+		regdst   <= "00"; -- Destination Register, unimportant, but set to 0 for simplicity.
+		regwrite <= '0'; -- Don't write result to the Register File.
+		memwrite <= '0'; -- Don't write to the Data Memory.
+		case op is
+			when "000000" =>            -- RTYPE --
+				alusrc   <= "00" after 2 ns; -- Second ALU source is the register value.
+				aluop    <= "10" after 2 ns; -- Second ALU source is the register value.
+				memtoreg <= "00" after 2 ns; -- AluOut to be stored to the Register File.
+				regdst   <= "01" after 2 ns; -- Rd is the Destination Register.
+				regwrite <= '1'  after 2 ns;  -- Write Result to Register File.
+			when "100011" =>            --  LW   --
+			
+				-- FIND ERROR:
+				-- Book: page 382, exei pinakaki gia tis entoles
+				-- to error einai stin grammi 16 tou kodika ston MIPS (diladi: lw $t3, 8($t0))
+				-- ekei pernaei ston rd2( = o opoios krataei thn address) lathos dieuthinsi 
+				-- gia na leitourgei to signal mou alusrc sto lw prepei na einai sto 1(01) kai oxi sto 2(10) pou itan
+				alusrc   <= "01" after 2 ns; -- Second ALU source is Immediate.
+				
+				aluop    <= "00" after 2 ns; -- ALU is doing addition
+				memtoreg <= "01" after 2 ns; -- Signal Result is Mem Output.
+				regwrite <= '1'  after 2 ns;  -- Write Result to Register File.
+			when "101011" =>            --  SW   --
+				alusrc   <= "01" after 2 ns; -- Second ALU  source is Immediate.
+				aluop    <= "00" after 2 ns; -- ALU is doing addition.
+				memwrite <= '1'  after 2 ns;  -- Write to Data Memory.
+			when "000100" =>            --  BEQ  --
+				branch   <= '1'  after 2 ns;
+				alusrc   <= "00" after 2 ns; -- Second ALU source is the register value.
+				aluop    <= "01" after 2 ns; -- Subtract
+			when "001000" | "001001" => -- ADDI, ADDIU --
+				alusrc   <= "01" after 2 ns; -- Second ALU source is Immediate.
+				aluop    <= "00" after 2 ns;
+				memtoreg <= "00" after 2 ns; -- Signal Result is ALU Output.
+				regdst   <= "00" after 2 ns; -- Rt is the Destination Register.
+				regwrite <= '1'  after 2 ns;  -- Write Result to Register File.
+			when "000010" =>            --   J   --
+				jump     <= '1'  after 2 ns;
+			when "001111" =>            --  LUI  --
+				alusrc   <= "10" after 2 ns; -- Second ALU Source is lui Immediate.
+				aluop    <= "11" after 2 ns; -- OR
+				memtoreg <= "00" after 2 ns; -- Signal Result is ALU Output.
+				regdst   <= "00" after 2 ns; -- Rt is the Destination Register.
+				regwrite <= '1'  after 2 ns;  -- Write Result to Register File.
+			when "001101" =>            --  ORI  --
+				alusrc   <= "01" after 2 ns; -- Second ALU Source is Immediate.
+				aluop    <= "11" after 2 ns; -- OR
+				memtoreg <= "00" after 2 ns; -- Signal Result is ALU Output.
+				regdst   <= "00" after 2 ns; -- Rt is the Destination Register.
+				regwrite <= '1'  after 2 ns;  -- Write Result to Register File.
+			when others =>            -- Unknown --
+		end case;
+	end process dec;
+end architecture RTL;

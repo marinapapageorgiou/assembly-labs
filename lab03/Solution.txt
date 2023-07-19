@@ -1,0 +1,59 @@
+   # DO NOT DELCARE main IN THE .globl DIRECTIVE. BREAKS MUNIT!
+.globl pdrome
+
+.data
+anna:  .asciiz "anna"
+bobob: .asciiz "bobob"
+
+.text
+  la    $a0, anna
+  addi  $a1, $zero, 4
+  jal   pdrome
+  add   $s0, $v0, $zero  # keep the return value
+
+  la    $a0, bobob
+  addi  $a1, $zero, 5
+  jal   pdrome
+  add   $s1, $v0, $zero  # keep the return value
+  # both s1 and s0 must be 1 here
+
+  addiu   $v0, $zero, 10    # system service 10 is exit
+  syscall                   # we are outa here.
+
+
+pdrome:
+  addi  $v0, $zero, 1
+  beq   $a0, $zero, return  # if null string, return 1.
+  # Note: I could have removed the two lines above, if I trusted that $a1 would be 0 whenever $a0 is null.
+  sltiu $v0, $a1,   2       #  "hacK" - the result goes into v0 - the subroutine return value
+  bne   $v0, $zero, return  # if length < 2, return 1
+  # v0 - the return value is 0 here.
+  lb    $t0, 0($a0)
+  add   $t1, $a0, $a1
+  lb    $t2, -1($t1)   # t1 is 1 byte past the last char. I avoid an extra instruction with the -1 offset!
+  bne   $t0, $t2,   return  # v0 is already 0 here`
+  addi  $sp, $sp,   -4  # I could do this at the beginning of the subroutine...
+  sw    $ra, 0($sp)     # keep the return address safe
+  addi  $a0, $a0,   1   # point to the substring's new start
+  addi  $a1, $a1,  -2   # length -= 2 as both the first and last "pointers" move inwards
+  jal   pdrome
+  # Note: I could check if a1 becomes 0 (or 1) and return 1 at this point, avoiding to jal pdrome
+  #   with a length (a1) of 0 (or 1)
+  # The value returned by the recursive call is my return value too, so v0 is untouched here
+  lw    $ra, 0($sp)     # recover the return address
+  addi  $sp, $sp,   4   # and restore the stack
+return:
+  jr $ra
+
+
+# -----------------------------------
+# Algorithm
+# if a0 == 0
+#   return 1
+# if a1 < 2
+#   return 1
+# if *a0 != *(a0+a1-1)
+#   return 0
+# a1 -= 2
+# a0 += 1
+# return palindrome(a0, a1)

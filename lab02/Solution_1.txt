@@ -1,0 +1,40 @@
+# lab02.asm - Pairwise swap in an array of 32bit integers
+#   coded in  MIPS assembly using MARS
+# for MYΥ-505 - Computer Architecture, Fall 2021
+# Department of Computer Engineering, University of Ioannina
+# Instructor: Aris Efthymiou
+
+        .globl swapArray # declare the label as global for munit
+        
+###############################################################################
+        .data
+array: .word 5, 6, 7, 8, 1, 2, 3, 4
+
+###############################################################################
+        .text 
+# label main freq. breaks munit, so it is removed...
+        la         $a0, array
+        li         $a1, 8
+
+swapArray:
+###############################################################################
+   
+	#asr  $t0, $a1, 1   # The array position of the middle element
+        #sll  $t0, $t0, 2   # x4 to get the offeset of the middle element
+        sll  $s0, $a1, 1    # the combination of the above two commands!
+        add  $s0, $a0, $s0  # address of the middle element
+        add  $t0, $s0, $zero  # pointer for the upper half of the array
+loop:
+        beq  $a0, $s0, exit  # Done with lower half? this works even for an empty array (a1 == 0)
+        lw   $t1, 0($a0)  # get current lower half array element a[i]
+        lw   $t2, 0($t0)  # get a[half+i]
+        sw   $t1, 0($t0)  # store into upper half
+        sw   $t2, 0($a0)  # store into lower half
+        addi $a0, $a0, 4  # increment pointers
+        addi $t0, $t0, 4
+	j    loop
+
+###############################################################################
+exit:
+        addiu      $v0, $zero, 10    # system service 10 is exit
+        syscall                      # we are outta here.
